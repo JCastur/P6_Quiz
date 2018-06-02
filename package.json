@@ -2,7 +2,7 @@
   "name": "quiz-2018",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
+  "scripts": {    
     "start": "heroku local:start",
     "super": "supervisor ./bin/www",
     "start_old": "node ./bin/www",
@@ -14,6 +14,7 @@
     "reset_heroku": "heroku pg:reset DATABASE",
     "mon_heroku": "heroku maintenance:on",
     "moff_heroku": "heroku maintenance:off"
+    
   },
   "engines": {
     "node": "8.9.1",
